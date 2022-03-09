@@ -12,20 +12,20 @@
 clusters:
    default:
       master:
-         token: "mfa.i5yFI6oZlklSpf56JXGkX_cMgLDQXaZoUUM7pyATn9kMD78wtK_5VTRpmMqcu0MVXHpNYnqpEi_7JZOgO-Fm" # Instance 1
+         token: "token1" # Instance 1
          channel_id: "842945548578717706"
       instances:
-         - token: "OTQyODk2NzE4NTc4NjAyMDM0.YgrSJA.Mv2qkd-ec6-BJmo4sXnZ7YzyHBQ" # Instance 2
+         - token: "token2" # Instance 2
            channel_id: "842945548578717706"
            shifts:
               - state: "active"
-         - token: "mfa.Mh98bMwwBSGi8sHuza6Jts660vk1ebdggi4A0pPcsdcB8IHI3zr3SDGgAfT7wqIwXVnuZsEIzJs7XRYbruGe" # Instance 3
+         - token: "token3" # Instance 3
            channel_id: "838848787300614194"
-         - token: "OTQyODg1NTQzMTc0MzQ0NzY0.YgrScQ.gNXM0ZyKBu9c1TfnQUmAQRabv54" # Instance 4
+         - token: "token4" # Instance 4
            channel_id: "940761798909509743"
-         - token: "OTQwNzU3OTk1MjY3MTgyNTky.YifbLA.u77n4ws659Xea94UfiK7bXRBX0A" # Instance 5
+         - token: "token5" # Instance 5
            channel_id: "942586905227329556"
-         - token: "OTQyNTgzMzgyOTA1MzMxNzMy.Yifa1g.4uUCPo5W3UbOhVQh3TjfsAszqMk" # Instance 5
+         - token: "token6" # Instance 5
            channel_id: "842945548578717706"
 
 shifts:
